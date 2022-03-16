@@ -1,0 +1,6 @@
+a = input("enter the values: ")
+a = a.split(",")
+a.sort()
+print("Ascending order:",a)
+a.reverse()
+print("Decending order:",a)
